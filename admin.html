@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183f36">
+  <title>Administração | ONG 1+1 faz a diferença</title>
+  <link rel="stylesheet" href="admin.css">
+  <script src="admin.js" defer></script>
+</head>
+<body>
+  <header><div class="wrap header-inner"><a class="brand" href="index.html">1+1 <span>faz a diferença</span></a><a class="back" href="index.html">← Voltar ao aplicativo</a></div></header>
+  <main class="wrap">
+    <div class="intro"><p class="eyebrow">PAINEL DE ADMINISTRAÇÃO</p><h1>Vamos cuidar do<br><em>nosso conteúdo.</em></h1><p>Altere os textos, adicione fotos e prepare uma nova versão do aplicativo.</p></div>
+    <div class="notice"><strong>Como funciona</strong><p>As alterações ficam nesta página enquanto ela estiver aberta. Para colocá-las no ar, baixe os arquivos e envie-os ao GitHub. Este painel não publica alterações automaticamente e não exige senha.</p></div>
+    <div id="status" role="status" aria-live="polite">Carregando informações do aplicativo…</div>
+    <form id="editor" hidden>
+      <section class="panel"><div class="panel-heading"><span>01</span><div><h2>Informações e atividades</h2><p>Edite os campos que quiser atualizar.</p></div></div><div id="text-sections"></div></section>
+      <section class="panel"><div class="panel-heading"><span>02</span><div><h2>Galeria de fotos</h2><p>Escolha fotos e escreva uma descrição para cada atividade.</p></div></div><div id="gallery-editor"></div><button type="button" id="add-card" class="secondary">+ Adicionar atividade</button></section>
+      <section class="panel"><div class="panel-heading"><span>03</span><div><h2>Contato e localização</h2><p>Esses dados atualizam os botões de contato do aplicativo.</p></div></div><div class="fields">
+        <label>WhatsApp com DDI e DDD <small>Exemplo: 5511965526343</small><input id="phone" type="tel" inputmode="numeric" required></label>
+        <label>Usuário do Instagram <small>Sem @</small><input id="instagram" type="text" required></label>
+        <label>E-mail<input id="email" type="email" required></label>
+        <label>Endereço completo<textarea id="address" rows="2" required></textarea></label>
+      </div></section>
+      <div class="finish"><div><h2>Tudo pronto?</h2><p>Baixe o pacote, extraia o ZIP e envie os arquivos para o repositório no GitHub.</p></div><button type="submit" id="download" class="primary">Baixar arquivos atualizados ↓</button></div>
+    </form>
+    <section class="publish"><h2>Como colocar as alterações no ar</h2><ol><li>Baixe e extraia o ZIP gerado acima.</li><li>No seu repositório do GitHub, escolha <strong>Add file → Upload files</strong>. Envie os arquivos extraídos e a pasta <strong>assets</strong>; confirme em <strong>Commit changes</strong> na branch de publicação.</li><li>Se for a primeira publicação, em <strong>Settings → Pages</strong>, escolha <strong>Deploy from a branch</strong>, branch <strong>main</strong> e pasta <strong>/ (root)</strong>. Salve.</li><li>Aguarde a atualização e abra o endereço informado em Pages. Só quem tem acesso ao repositório consegue publicar.</li></ol><p>As fotos e edições não são enviadas até você publicar os arquivos. Para fazer novas alterações, abra novamente o painel da versão publicada.</p></section>
+  </main>
+  <footer class="wrap">ONG 1+1 faz a diferença <span>Feito para cuidar da nossa comunidade. ✳</span></footer>
+</body>
+</html>

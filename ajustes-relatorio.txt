@@ -1,0 +1,7 @@
+Solução escolhida
+
+Foi desenvolvido um aplicativo web responsivo (PWA) informativo para a ONG 1+1 faz a diferença. O aplicativo reúne, em um único lugar, informações sobre as atividades da ONG, formas de participação, doações, voluntariado, agenda, contatos e localização. A solução complementa os canais WhatsApp e Instagram, sem substituí-los, e pode ser acessada pelo navegador do celular ou instalada na tela inicial do dispositivo.
+
+Descreva, brevemente, como a atividade foi desenvolvida
+
+O grupo realizou uma atividade de extensão junto à ONG 1+1 faz a diferença, que atende crianças e jovens em Embu das Artes. Após identificar que a instituição divulgava suas ações principalmente pelo WhatsApp e Instagram, foi desenvolvido um aplicativo web responsivo (PWA) para reunir informações sobre aulas de apoio, artes marciais, dança, refeições, marmitas, psicologia infantil, apoio às famílias, eventos, doações e voluntariado. O aplicativo foi criado com HTML, CSS e JavaScript, é responsivo para celular e possui links diretos para os canais já utilizados pela ONG. A solução foi apresentada e validada com o responsável da instituição, o presidente Antonio Fabio.
