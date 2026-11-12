@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ong-1mais1-v3';
+const CACHE_NAME = 'ong-1mais1-1794525001855';
 const APP_FILES = ['./', './index.html', './style.css', './script.js', './manifest.json', './assets/logo-ong.jpeg', './assets/icon-192.png', './assets/icon-512.png'];
 
 self.addEventListener('install', (event) => {
